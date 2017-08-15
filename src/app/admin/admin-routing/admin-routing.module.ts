@@ -16,7 +16,7 @@ const adminRoutes: Routes = [
         path: '',
         children: [
           { path: 'image-rotator', component: ImageRotatorComponent },
-          { path: 'heroes', component: ListingManagerComponent },
+          { path: 'listing-manager', component: ListingManagerComponent },
           { path: '', component: AdminDashboardComponent }
         ]
       }

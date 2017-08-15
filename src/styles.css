@@ -1,2 +1,4 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.css";
+@import "./app/vendor/sb-admin/styles/sb-admin-2.min.css";
+@import "./app/vendor/metisMenu/metisMenu.min.css";
