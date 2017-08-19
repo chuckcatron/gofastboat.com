@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes-component/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroService } from './hero.service';
+import { ImageService } from './services/image.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-router/app-router.module';
 import { AdminModule } from './admin/admin.module';
@@ -22,7 +23,7 @@ import { AdminModule } from './admin/admin.module';
     AppRoutingModule,
     AdminModule
   ],
-  providers: [HeroService],
+  providers: [HeroService, ImageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

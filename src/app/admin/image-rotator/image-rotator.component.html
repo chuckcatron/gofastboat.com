@@ -9,4 +9,17 @@
       <app-admin-upload></app-admin-upload>
     </div>
   </div>
+  <div *ngFor="let i of images">
+    <div class="row" style="padding: 1em;">
+      <div class="col-lg-2">
+        <span class="badge">{{i.id}}</span> {{i.name}}
+      </div>
+      <div class="col-lg-2" style="padding-top: 1.75em;">
+        <button class="btn btn-danger btn-circle btn-lg" (click)="deleteImage()"><i class="fa fa-times"></i></button>
+      </div>
+      <div class="col-lg-6">
+        <img src='{{i.imagePath}}'>
+      </div>
+    </div>
+  </div>
 </div>
