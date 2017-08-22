@@ -15,7 +15,7 @@
         <span class="badge">{{i.id}}</span> {{i.name}}
       </div>
       <div class="col-lg-2" style="padding-top: 1.75em;">
-        <button class="btn btn-danger btn-circle btn-lg" (click)="deleteImage()"><i class="fa fa-times"></i></button>
+        <button class="btn btn-danger btn-circle btn-lg" (click)="deleteImage(i)"><i class="fa fa-times"></i></button>
       </div>
       <div class="col-lg-6">
         <img src='{{i.imagePath}}'>
